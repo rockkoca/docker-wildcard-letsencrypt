@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker build -t wildcard-letsencrypt .
+docker build -t rockkoca/wildcard-letsencrypt .
+docker push rockkoca/wildcard-letsencrypt
